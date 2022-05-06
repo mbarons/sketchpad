@@ -1,0 +1,33 @@
+.panel {
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  border: 1px black solid;
+}
+
+.lines{
+  display: flex;
+  flex: 1;
+}
+
+.columns{
+  display: flex;
+  flex: 1;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+  align-items: center;
+  background-color: rgba(0, 0, 0, .1);;
+}
+
+.buttons-panel {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  gap: 10px;
+  margin-right: 20px;
+}
